@@ -44,6 +44,13 @@ TEST(payroll_tests, test_gross_pay_when_ot_hours){
     EXPECT_EQ(1040, getGrossPay(40, 8, 20));
 }
 
+#include "gtest/gtest.h"
+#include "payroll.h"
+
+TEST (Nae_of_test_suite_here, name_of_current_test_here) {
+    EXPECT_EQ (0, somePayrollFunction(30));
+}
+
 
 
 
