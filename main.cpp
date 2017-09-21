@@ -55,5 +55,10 @@ int main() {
 
     cout<<ss.str();
 
+    
+    int main ()  {
+        cout<<"Enter The size of Array:  ";
+        int size;
+        cin>>size;
     return 0;
 }
